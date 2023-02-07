@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileProject2.Views.NewsPage">
+    <ScrollView>
+        <StackLayout Background="Blue">
+            <Frame BorderColor="Red" CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout>
+                        <Image Source="pudge.png" WidthRequest="150" HeightRequest="150" Margin="0, 40, 10, 0"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout>
+                            <Label FontAttributes="Bold" FontSize="18">Введите свои данные:</Label>
+                            <Entry Placeholder="Фамилия"></Entry>
+                            <Entry Placeholder="Имя"></Entry>
+                            <Entry Placeholder="Отчество"></Entry>
+                            <Button BackgroundColor="LightGreen" CornerRadius="20" Text="Отправить" FontSize="16"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Red" CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout>
+                        <Image Source="dazzle.jpg" WidthRequest="150" HeightRequest="150" Margin="0, 40, 10, 0"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout>
+                            <Label FontAttributes="Bold" FontSize="18">Введите свои данные:</Label>
+                            <Entry Placeholder="Фамилия"></Entry>
+                            <Entry Placeholder="Имя"></Entry>
+                            <Entry Placeholder="Отчество"></Entry>
+                            <Button BackgroundColor="LightGreen" CornerRadius="20" Text="Отправить" FontSize="16"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Red" CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout>
+                        <Image Source="tide.jpg" WidthRequest="150" HeightRequest="150" Margin="0, 40, 10, 0"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout>
+                            <Label FontAttributes="Bold" FontSize="18">Введите свои данные:</Label>
+                            <Entry Placeholder="Фамилия"></Entry>
+                            <Entry Placeholder="Имя"></Entry>
+                            <Entry Placeholder="Отчество"></Entry>
+                            <Button BackgroundColor="LightGreen" CornerRadius="20" Text="Отправить" FontSize="16"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Red" CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout>
+                        <Image Source="bounty.jpg" WidthRequest="150" HeightRequest="150" Margin="0, 40, 10, 0"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout>
+                            <Label FontAttributes="Bold" FontSize="18">Введите свои данные:</Label>
+                            <Entry Placeholder="Фамилия"></Entry>
+                            <Entry Placeholder="Имя"></Entry>
+                            <Entry Placeholder="Отчество"></Entry>
+                            <Button BackgroundColor="LightGreen" CornerRadius="20" Text="Отправить" FontSize="16"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Red" CornerRadius="20">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout>
+                        <Image Source="serega.jpg" WidthRequest="150" HeightRequest="150" Margin="0, 40, 10, 0"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout>
+                            <Label FontAttributes="Bold" FontSize="18">Введите свои данные:</Label>
+                            <Entry Placeholder="Фамилия"></Entry>
+                            <Entry Placeholder="Имя"></Entry>
+                            <Entry Placeholder="Отчество"></Entry>
+                            <Button BackgroundColor="LightGreen" CornerRadius="20" Text="Отправить" FontSize="16"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
